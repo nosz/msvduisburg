@@ -6,7 +6,7 @@
 
 Inoffizielles Fan-Projekt (ohne Verbindung zum MSV Duisburg). Gleiche Technik und gleicher Aufbau wie das Knappen-Quiz (SCHALKE), Inhalte komplett neu. Der Hinweis „Website Design by Norbert“ steht im Fuß der Startseite und ist ein Link auf https://nosz.github.io/norbert-szpak/.
 
-**Datei:** `index.html` (eine Datei, offline lauffähig, Version 1.0.0, Stand 24.10.2026). Einfach im Browser öffnen oder auf einem Webserver ablegen.
+**Datei:** `index.html` (eine Datei, offline lauffähig, Version 1.0.1, Stand 24.10.2026). Einfach im Browser öffnen oder auf einem Webserver ablegen.
 
 > **Veröffentlichung:** GitHub-Repository `msvduisburg` (Benutzer `nosz`), Adresse `https://nosz.github.io/msvduisburg/`. Alle Dateien der Liste unten ins Hauptverzeichnis des Repositories legen (ohne Unterordner), GitHub Pages auf den Hauptzweig stellen.
 
@@ -46,4 +46,5 @@ Marineblau und Weiß, nach dem Auftritt von msv-duisburg.de aus einem Screenshot
 - Vor einer öffentlichen Veröffentlichung Marken- und Stil-Anlehnung mit Management/Legal klären (Markus-Krebs-Stil, Vereinsname).
 
 ## Änderungsprotokoll
+- 1.0.1 (24.10.2026): Teilen und Zertifikat-Download in App-Browsern (Facebook, Instagram, Messenger) repariert: Erkennung mit Hinweis „Im Browser öffnen“, Zertifikat-Bild zum Speichern per langem Druck, Fehlerbehandlung beim Download.
 - 1.0.0 (24.10.2026): Erstfassung, gebaut aus dem Gerüst SCHALKE (Version 1.1.5): Zebra-Quiz mit 7 Spieltagen, kleinem Markus mit Mütze und Sonnenbrille (Witze), Namensfrage, Lob, Installieren-Knopf, Zertifikaten, Pflicht-Elementen (Autoren-Knopf, Speichern-Knopf, kein automatisches Scrollen) und Test-Suite.
