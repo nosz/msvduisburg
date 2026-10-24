@@ -1,0 +1,71 @@
+{
+    "name":  "Zebra-Quiz – Fan-Projekt für den MSV Duisburg",
+    "short_name":  "Zebra-Quiz",
+    "description":  "Inoffizielles Fan-Projekt: MSV-Duisburg-Wissen in 7 Spieltagen mit Quiz, Markus-Witzen und Zertifikaten. Deutsch, English, Ruhrpott. Läuft auch offline.",
+    "id":  "/msvduisburg/",
+    "start_url":  "./",
+    "scope":  "./",
+    "display":  "standalone",
+    "display_override":  [
+                             "standalone",
+                             "minimal-ui"
+                         ],
+    "orientation":  "any",
+    "background_color":  "#ffffff",
+    "theme_color":  "#26357a",
+    "lang":  "de",
+    "dir":  "ltr",
+    "categories":  [
+                       "sports",
+                       "entertainment"
+                   ],
+    "prefer_related_applications":  false,
+    "icons":  [
+                  {
+                      "purpose":  "any",
+                      "type":  "image/png",
+                      "sizes":  "192x192",
+                      "src":  "icon-192.png"
+                  },
+                  {
+                      "purpose":  "any",
+                      "type":  "image/png",
+                      "sizes":  "512x512",
+                      "src":  "icon-512.png"
+                  },
+                  {
+                      "purpose":  "maskable",
+                      "type":  "image/png",
+                      "sizes":  "512x512",
+                      "src":  "icon-maskable-512.png"
+                  }
+              ],
+    "shortcuts":  [
+                      {
+                          "url":  "./#lesson-boss",
+                          "description":  "Inoffizielles Fan-Projekt: MSV-Duisburg-Wissen in 7 Spieltagen mit Quiz, Markus-Witzen und Zertifikaten. Deutsch, English, Ruhrpott. Läuft auch offline.",
+                          "name":  "Bossrunde",
+                          "icons":  [
+                                        {
+                                            "type":  "image/png",
+                                            "sizes":  "192x192",
+                                            "src":  "icon-192.png"
+                                        }
+                                    ],
+                          "short_name":  "Boss"
+                      },
+                      {
+                          "url":  "./#home",
+                          "description":  "Inoffizielles Fan-Projekt: MSV-Duisburg-Wissen in 7 Spieltagen mit Quiz, Markus-Witzen und Zertifikaten. Deutsch, English, Ruhrpott. Läuft auch offline.",
+                          "name":  "Zertifikate",
+                          "icons":  [
+                                        {
+                                            "type":  "image/png",
+                                            "sizes":  "192x192",
+                                            "src":  "icon-192.png"
+                                        }
+                                    ],
+                          "short_name":  "Zertifikate"
+                      }
+                  ]
+}
